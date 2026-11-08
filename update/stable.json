@@ -2,8 +2,8 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-08T20:11:36+0800",
-  "build_id": "ed88deb",
+  "generated_at": "2026-11-08T20:51:13+0800",
+  "build_id": "f507119",
   "latest": {
     "version": "0.1.0",
     "min_version": "0.0.0",
@@ -13,11 +13,11 @@
       "win-x64": {
         "full": {
           "asset": "Xwork-0.1.0-win64.zip",
-          "size": 178669596,
-          "sha256": "7732feba021bee7561b74566a46714c3796f67fc52a0918dfc5c15f2b5440d93",
+          "size": 178669577,
+          "sha256": "0747ea5e67fc14f73683ca4cca2f5bb82197346fab9222c0d1bad80038f15666",
           "files_asset": "files-0.1.0.json",
-          "files_sha256": "6692635fc5eb7381242f6f10eede8f0b26ad3a6306ec1336a6d479b36dee0aa5",
-          "unpacked": 409733433
+          "files_sha256": "b44b069127ea64542197731ee28dc3a6f74498e402119adb6a0cd1dd5f91c565",
+          "unpacked": 409733811
         },
         "deltas": []
       }
