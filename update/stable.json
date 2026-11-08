@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "app": "xwork",
+  "channel": "stable",
+  "generated_at": "2026-11-08T20:11:36+0800",
+  "build_id": "ed88deb",
+  "latest": {
+    "version": "0.1.0",
+    "min_version": "0.0.0",
+    "notes": "新增浏览器访问开关（一次性票据换会话，默认关闭）、缓存自动清理两开关（默认关闭）；启动性能优化：预热线程降档让路、首屏路径加缓存，就绪到健康检查回包缩短约 0.7 秒；清理旧版本兼容代码，删除插件壁纸迁移等无用分支。",
+    "mandatory": false,
+    "platforms": {
+      "win-x64": {
+        "full": {
+          "asset": "Xwork-0.1.0-win64.zip",
+          "size": 178669596,
+          "sha256": "7732feba021bee7561b74566a46714c3796f67fc52a0918dfc5c15f2b5440d93",
+          "files_asset": "files-0.1.0.json",
+          "files_sha256": "6692635fc5eb7381242f6f10eede8f0b26ad3a6306ec1336a6d479b36dee0aa5",
+          "unpacked": 409733433
+        },
+        "deltas": []
+      }
+    }
+  },
+  "history": []
+}
