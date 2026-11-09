@@ -2,30 +2,30 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-09T16:20:19+0800",
-  "build_id": "906adf9",
+  "generated_at": "2026-11-10T01:00:25+0800",
+  "build_id": "a0a37a3",
   "latest": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "min_version": "0.0.0",
-    "notes": "新增桌面悬浮球（置顶圆形、可拖动、32/40/48 三档尺寸、单击恢复窗口、右键原生菜单，且不占任务栏）；托盘与悬浮球右键菜单可配置显隐与顺序；文件预览支持 HTML 渲染、压缩包树形浏览，「用系统程序打开」调用默认程序；暂存框新增「复制到…」并修复拖入无效；项目阶段可关联本地文件夹；修复关闭窗口未最小化到托盘、笔记顶部按钮随文字换行位移、首页未配置提示阻断使用。",
+    "notes": "「运维」页全链路更名为「工具」，旧配置段与菜单名在读路径自动搬家，老配置无需迁移；托盘与悬浮球右键菜单改用同一套自绘菜单，浅/深配色跟随应用主题、按显示器 DPI 缩放，带图标列、分组分隔线、悬停/按下态与键盘导航，原生菜单保留为兜底；新增纯前端文本转二维码工具；修复悬浮球启用后不显示、副屏位置被夹回主屏、占任务栏、右键菜单重复弹出等问题。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
-          "asset": "Xwork-0.2.0-win64.zip",
-          "size": 178713586,
-          "sha256": "0cb0bb8f64eaaeb0e3d30af1a92e414663186b28a2f2c817ec9a0e11eb920baf",
-          "files_asset": "files-0.2.0.json",
-          "files_sha256": "a9ed9c28f7fdd74c33c1a7977238c50fbb66ec31dc9c92d5b37d16d41136b420",
-          "unpacked": 409799261
+          "asset": "Xwork-0.3.0-win64-update.zip",
+          "size": 178765572,
+          "sha256": "2f4b1aabefb92035fe89d76892b2324ccd682ff2b355b56b84c1e82084bae244",
+          "files_asset": "files-0.3.0.json",
+          "files_sha256": "745c4683c82a427b0b16e7b99be0d2c3c9f5b465ffc0ddaed5b864874ed229b3",
+          "unpacked": 409877760
         },
         "deltas": [
           {
-            "from": "0.1.0",
-            "asset": "delta-0.1.0-to-0.2.0.zip",
-            "size": 20239480,
-            "sha256": "0b0b72c8b5421a4af1bbba09c7957179fa0a8925f4c6ace509df0be984b17dc0",
-            "removes": 0
+            "from": "0.2.0",
+            "asset": "delta-0.2.0-to-0.3.0.zip",
+            "size": 20240963,
+            "sha256": "c273d4b04a32f3d1b0ce685730e9441f6c5a78db829b8bd47995e7526ea8d4e3",
+            "removes": 3
           }
         ]
       }
