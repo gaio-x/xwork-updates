@@ -2,30 +2,30 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-10T01:00:25+0800",
-  "build_id": "a0a37a3",
+  "generated_at": "2026-11-13T21:42:09+0800",
+  "build_id": "e0dd8b8",
   "latest": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "min_version": "0.0.0",
-    "notes": "「运维」页全链路更名为「工具」，旧配置段与菜单名在读路径自动搬家，老配置无需迁移；托盘与悬浮球右键菜单改用同一套自绘菜单，浅/深配色跟随应用主题、按显示器 DPI 缩放，带图标列、分组分隔线、悬停/按下态与键盘导航，原生菜单保留为兜底；新增纯前端文本转二维码工具；修复悬浮球启用后不显示、副屏位置被夹回主屏、占任务栏、右键菜单重复弹出等问题。",
+    "notes": "v0.4.0 流程编排平台成型：新增自动化页与画布、DAG 执行引擎、代码节点 Python 运行底座、业务原生节点与工单闭环模板、全节点参数模型 v2 重构；节点库支持右 / 下 / 右下三轴拖拽拉伸，双击预览「参数」页与编辑区「参数配置」字段同源并改为分组卡片布局；修复托盘与悬浮球右键菜单、帮助文档下载取消、升级包增量优先选择。升级不覆盖用户数据；首次安装请用绿色全量包。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
-          "asset": "Xwork-0.3.0-win64-update.zip",
-          "size": 178765572,
-          "sha256": "2f4b1aabefb92035fe89d76892b2324ccd682ff2b355b56b84c1e82084bae244",
-          "files_asset": "files-0.3.0.json",
-          "files_sha256": "745c4683c82a427b0b16e7b99be0d2c3c9f5b465ffc0ddaed5b864874ed229b3",
-          "unpacked": 409877760
+          "asset": "Xwork-0.4.0-win64-update.zip",
+          "size": 180306876,
+          "sha256": "9450cb6fcae422c192f1796e8dd322b03da4acd18f176f0f805cbfeafa8c5be4",
+          "files_asset": "files-0.4.0.json",
+          "files_sha256": "31508ec359bb5ccae519eff16f2d386e615ef1b2ba35766cbae859801ee13099",
+          "unpacked": 414016692
         },
         "deltas": [
           {
-            "from": "0.2.0",
-            "asset": "delta-0.2.0-to-0.3.0.zip",
-            "size": 20240963,
-            "sha256": "c273d4b04a32f3d1b0ce685730e9441f6c5a78db829b8bd47995e7526ea8d4e3",
-            "removes": 3
+            "from": "0.3.0",
+            "asset": "delta-0.3.0-to-0.4.0.zip",
+            "size": 21867577,
+            "sha256": "328b29350b1422742958539e9b10a48750008d761ac4f368ab691c89d2728250",
+            "removes": 0
           }
         ]
       }
