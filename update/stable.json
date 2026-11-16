@@ -2,29 +2,29 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-16T10:55:03+0800",
-  "build_id": "10bf6da",
+  "generated_at": "2026-11-16T11:50:20+0800",
+  "build_id": "950678c",
   "latest": {
     "version": "0.5.0",
     "min_version": "0.0.0",
-    "notes": "v0.5.0 节点参数体系重构版：参数定义收敛到 gen_param_schema.py 唯一真源，61 类节点全量字段机械派生到前后端；aggregate 统一分组三模式，新增凭据 DPAPI 加密落盘与 HTTP 节点统一鉴权。画布工具栏精简重排、小地图按需显隐、流程管理合并新建入口；视觉规范三批落地，窗口首帧定位与悬浮球菜单等问题修复。绿色版随包 CPython 运行时，升级器支持可选部件。升级不覆盖用户数据；首次安装请用绿色全量包。",
+    "notes": "v0.5.0 重发版（修复 0.4.0 升级被拒）：随包 CPython 运行时改放 _internal/python，可替换面收回 Xwork.exe + _internal 两项。此前 0.5.0 把运行时放到新的顶层 bin/python，旧客户端会以「部件清单不合法：path 必须落在可替换面内」拒绝整份清单，导致升级无法进行。本次制品已按修复后源码重打，升级链路对 0.4.0 恢复正常；节点参数体系重构、aggregate 三模式分组、凭据 DPAPI 加密等本版特性不变。升级不覆盖用户数据。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
           "asset": "Xwork-0.5.0-win64-update.zip",
-          "size": 199891100,
-          "sha256": "6d1dbf8e7ddc8a2e4a8df327435ad02918d5234376200921c53a3436f1f23238",
+          "size": 199907268,
+          "sha256": "b00ad9a11ad2788b57cd0cde51e855b42e8f51f6d74ae2cc4ff7b015236a4700",
           "files_asset": "files-0.5.0.json",
-          "files_sha256": "b4b9cd31a7dafda1783d11c6273e7de573fd45626f44530db7e0d0c50b7e8a9a",
-          "unpacked": 466365603
+          "files_sha256": "0100fd6cb95e09326e60be13f3b194e2acefad288f0a00efec615b4f6d552019",
+          "unpacked": 466367355
         },
         "deltas": [
           {
             "from": "0.4.0",
             "asset": "delta-0.4.0-to-0.5.0.zip",
-            "size": 40636201,
-            "sha256": "1d505b646071ba3d22072ae2229b772f25b6806cadfb371f1eb5b2aa11c21474",
+            "size": 40652373,
+            "sha256": "0d9ec6202d54cd708590870bfe7c144fb847cf9c16f34c6da4fad7313f9d5bb9",
             "removes": 0
           }
         ]
