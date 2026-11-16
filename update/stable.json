@@ -2,29 +2,29 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-13T21:42:09+0800",
-  "build_id": "e0dd8b8",
+  "generated_at": "2026-11-16T10:55:03+0800",
+  "build_id": "10bf6da",
   "latest": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "min_version": "0.0.0",
-    "notes": "v0.4.0 流程编排平台成型：新增自动化页与画布、DAG 执行引擎、代码节点 Python 运行底座、业务原生节点与工单闭环模板、全节点参数模型 v2 重构；节点库支持右 / 下 / 右下三轴拖拽拉伸，双击预览「参数」页与编辑区「参数配置」字段同源并改为分组卡片布局；修复托盘与悬浮球右键菜单、帮助文档下载取消、升级包增量优先选择。升级不覆盖用户数据；首次安装请用绿色全量包。",
+    "notes": "v0.5.0 节点参数体系重构版：参数定义收敛到 gen_param_schema.py 唯一真源，61 类节点全量字段机械派生到前后端；aggregate 统一分组三模式，新增凭据 DPAPI 加密落盘与 HTTP 节点统一鉴权。画布工具栏精简重排、小地图按需显隐、流程管理合并新建入口；视觉规范三批落地，窗口首帧定位与悬浮球菜单等问题修复。绿色版随包 CPython 运行时，升级器支持可选部件。升级不覆盖用户数据；首次安装请用绿色全量包。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
-          "asset": "Xwork-0.4.0-win64-update.zip",
-          "size": 180306876,
-          "sha256": "9450cb6fcae422c192f1796e8dd322b03da4acd18f176f0f805cbfeafa8c5be4",
-          "files_asset": "files-0.4.0.json",
-          "files_sha256": "31508ec359bb5ccae519eff16f2d386e615ef1b2ba35766cbae859801ee13099",
-          "unpacked": 414016692
+          "asset": "Xwork-0.5.0-win64-update.zip",
+          "size": 199891100,
+          "sha256": "6d1dbf8e7ddc8a2e4a8df327435ad02918d5234376200921c53a3436f1f23238",
+          "files_asset": "files-0.5.0.json",
+          "files_sha256": "b4b9cd31a7dafda1783d11c6273e7de573fd45626f44530db7e0d0c50b7e8a9a",
+          "unpacked": 466365603
         },
         "deltas": [
           {
-            "from": "0.3.0",
-            "asset": "delta-0.3.0-to-0.4.0.zip",
-            "size": 21867577,
-            "sha256": "328b29350b1422742958539e9b10a48750008d761ac4f368ab691c89d2728250",
+            "from": "0.4.0",
+            "asset": "delta-0.4.0-to-0.5.0.zip",
+            "size": 40636201,
+            "sha256": "1d505b646071ba3d22072ae2229b772f25b6806cadfb371f1eb5b2aa11c21474",
             "removes": 0
           }
         ]
