@@ -2,29 +2,29 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-16T11:50:20+0800",
-  "build_id": "950678c",
+  "generated_at": "2026-11-18T11:42:47+0800",
+  "build_id": "774f238",
   "latest": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "min_version": "0.0.0",
-    "notes": "v0.5.0 重发版（修复 0.4.0 升级被拒）：随包 CPython 运行时改放 _internal/python，可替换面收回 Xwork.exe + _internal 两项。此前 0.5.0 把运行时放到新的顶层 bin/python，旧客户端会以「部件清单不合法：path 必须落在可替换面内」拒绝整份清单，导致升级无法进行。本次制品已按修复后源码重打，升级链路对 0.4.0 恢复正常；节点参数体系重构、aggregate 三模式分组、凭据 DPAPI 加密等本版特性不变。升级不覆盖用户数据。",
+    "notes": "v0.6.0：体验改进五批收尾（状态三态 / 文件行键盘导航 / 甘特翻页 / 设置导入导出 / 插件日志抽屉 / 字形图标清理 / KB 响应式）；双开改为开窗后裁决，执行日志贴底停靠并支持上、右把手拉伸。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
-          "asset": "Xwork-0.5.0-win64-update.zip",
-          "size": 199907268,
-          "sha256": "b00ad9a11ad2788b57cd0cde51e855b42e8f51f6d74ae2cc4ff7b015236a4700",
-          "files_asset": "files-0.5.0.json",
-          "files_sha256": "0100fd6cb95e09326e60be13f3b194e2acefad288f0a00efec615b4f6d552019",
-          "unpacked": 466367355
+          "asset": "Xwork-0.6.0-win64-update.zip",
+          "size": 200153456,
+          "sha256": "794bcb0bb1054aa250d7984417e6a30ac417826654522dff1d59278613e0259a",
+          "files_asset": "files-0.6.0.json",
+          "files_sha256": "481eb4795178ea4716ca2cd0019b97131b92119a28058fd1e2d69cd407916140",
+          "unpacked": 466306410
         },
         "deltas": [
           {
-            "from": "0.4.0",
-            "asset": "delta-0.4.0-to-0.5.0.zip",
-            "size": 40652373,
-            "sha256": "0d9ec6202d54cd708590870bfe7c144fb847cf9c16f34c6da4fad7313f9d5bb9",
+            "from": "0.5.0",
+            "asset": "delta-0.5.0-to-0.6.0.zip",
+            "size": 22383369,
+            "sha256": "c42ac9dc782a80917e57927b5b925ce6a34ac94b59a18fb1def9302cf0180895",
             "removes": 0
           }
         ]
