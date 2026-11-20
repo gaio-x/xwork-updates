@@ -2,29 +2,29 @@
   "schema": 1,
   "app": "xwork",
   "channel": "stable",
-  "generated_at": "2026-11-18T16:34:44+0800",
-  "build_id": "f1b7c8d",
+  "generated_at": "2026-11-20T23:14:58+0800",
+  "build_id": "c7a9f3b",
   "latest": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "min_version": "0.0.0",
-    "notes": "v0.6.0 重发：体验改进五批收尾（状态三态 / 文件行键盘导航 / 甘特翻页 / 设置导入导出 / 插件日志抽屉 / 字形图标清理 / KB 响应式）；双开改为开窗后裁决，执行日志贴底停靠并支持上、右把手拉伸；修复跨版本升级时 _internal 清单外残留文件导致增量校验失败并连带全量降级的问题。",
+    "notes": "v0.7.0：笔记编辑器换成行编辑器（整篇一个可编辑区，大纲/图片/公式/格式/表格/代码全接入）；验收提速 5 倍（481s→97s，纯算断言上移 core 档、删浏览器冒烟）；首屏拆包 3417KB→197KB；WebHook 对外投递可用；mypy 与依赖锁闸门；软件更新新增「只用增量包」与「更新前保留备份」开关真正生效。",
     "mandatory": false,
     "platforms": {
       "win-x64": {
         "full": {
-          "asset": "Xwork-0.6.0-win64-update.zip",
-          "size": 200155627,
-          "sha256": "d12846601be95dcc0216ce3819ea3b1ccb3474f011c79d867b2702b47c8040ba",
-          "files_asset": "files-0.6.0.json",
-          "files_sha256": "e7f97a05d909d796038e584ec2ed9e365ee5c6c8b6c649a48d12574e99b81c7d",
-          "unpacked": 466307793
+          "asset": "Xwork-0.7.0-win64-update.zip",
+          "size": 202201683,
+          "sha256": "651d8308f177558b39dc4ce0e6d47b8fe1efe37c71c5c7964585077dd95e2415",
+          "files_asset": "files-0.7.0.json",
+          "files_sha256": "dbfd9054b4bfa487df56a728ba5fa2804b1491730da3fd4c59654b5f2a4f105d",
+          "unpacked": 470625810
         },
         "deltas": [
           {
-            "from": "0.5.0",
-            "asset": "delta-0.5.0-to-0.6.0.zip",
-            "size": 22385538,
-            "sha256": "b2e7952810ce45fa18299088be848fcde37484e51258ded714a9d474c7fcbf94",
+            "from": "0.6.0",
+            "asset": "delta-0.6.0-to-0.7.0.zip",
+            "size": 23955185,
+            "sha256": "a927bd5d2db3edee30a3ba0e9c70a459d55477e3d31650d7273711ab857ca234",
             "removes": 0
           }
         ]
